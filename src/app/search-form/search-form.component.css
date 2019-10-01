@@ -3,4 +3,25 @@
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   padding: 40px
+}.btt{
+  margin-left: 100px;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 300px;
+  margin-bottom: 40px;
+  background-image: url(../../assets/download.png);
+  background-size: 20%;
+  background-position: 9px;
+  background-repeat: no-repeat;
+  margin-left:600px;
+  width: 120px;
+
+}
+.bg {
+  background-image: url(../../assets/bggit.jpeg);
+  height: 800px;
+
+}
+input{
+  margin-top: 100px;
 }

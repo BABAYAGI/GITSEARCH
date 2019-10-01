@@ -1,16 +1,9 @@
 <body class="grey">
+    <a class="waves-effect waves-light btn-large btt" href="#search"><i class="material-icons right">     search</i>search</a>
   <div class="container">
-    <p class="card-panel hoverable  blue lighten-1"><img class="imm" src="{{ User.avatar_url }}" /></p>
-
-   
-
-
-
-    
-
+    <p class="card-panel hoverable bg"><img class="imm" src="{{ User.avatar_url }}" /></p>
     <div class="divider"></div>
     <div class="section">
-     
       <p>Name :{{ User.name }}</p>
     </div>
     <div class="divider"></div>
@@ -19,41 +12,24 @@
     </div>
     <div class="show-on-small hide-on-large-only">
       <p>
-
         BUY A LAPTOP BRO !!!
-
       </p>
     </div>
-
     <div>
-
-
-
-      
-      <h2 class="card">{{ User.name }} REPOSITORIES</h2>
-
-
+      <h2 class="card he">{{ User.name }} REPOSITORIES</h2>
       <div *ngFor='let l of Repository'>
-
-
         <div class="divider grey darken-4"></div>
         <div class="section section2 grey lighten-3">
-
           <p class="name1">Name of repo : {{l.name}}</p>
         </div>
-
-
-        <div class="divider grey darken-4" ></div>
-        <div   class="section section2  blue-grey darken-4">
-
-          <p  class="des  " > Description : "{{l.description }}"</p>
+        <div class="divider grey darken-4"></div>
+        <div class="section section2  ">
+          <p class="des  "> Description : "{{l.description }}"</p>
         </div>
-
-
-
       </div>
     </div>
   </div>
-  
+  <a class="waves-effect waves-light btn-large btt " href="#search"><i class="material-icons right">search</i>search</a>
+
 
 </body>
