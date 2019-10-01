@@ -30,7 +30,7 @@
 
 
       
-      <h2 class="card">{{ User.name }} repositories</h2>
+      <h2 class="card">{{ User.name }} REPOSITORIES</h2>
 
 
       <div *ngFor='let l of Repository'>
@@ -39,14 +39,14 @@
         <div class="divider"></div>
         <div class="section section2">
 
-          <p>{{l.name|caps}}</p>
+          <p>Name of repo : {{l.name}}</p>
         </div>
 
 
         <div class="divider"></div>
         <div class="section section2">
 
-          <p>{{l.description |caps}}</p>
+          <p class="des" > Description : "{{l.description }}"</p>
         </div>
 
 
