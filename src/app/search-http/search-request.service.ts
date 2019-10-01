@@ -45,8 +45,6 @@ export class SearchRequestService {
           error => {
             this.Use.avatar_url = "";
             this.Use.name = "";
-            // this.Use.follower = 0;
-            // this.Use.following = 0;
             this.Use.repo = 0;
 
             reject(error);
