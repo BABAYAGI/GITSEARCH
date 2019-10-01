@@ -20,6 +20,7 @@
 .bg {
   background-image: url(../../assets/bggit.jpeg);
   height: 800px;
+  margin-top: -40px;
 
 }
 input{
@@ -29,12 +30,12 @@ input{
 .i{
   width: 300px;
   margin-left: 550px;
-  margin-top: 100px;
+
 }
 .head {
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
-  background-image: url(../../assets/download.jpeg);
+ 
   height: 150px;
   text-align: center;
   color: antiquewhite;
