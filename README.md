@@ -48,7 +48,7 @@ No known bugs.
 * typescript
 * awesome & google fonts
 ## SUPPORT AND CONTACT DETAILS
-* EMAIL ME @ official1offmark@gmail.com
-* CHECK OUT MY WORK @ https://github.com/MachariaMark/
+* EMAIL ME @ darsan_hirani@hotmail.com /darsanh907@gmail.com
+* whatsapp 0777057775
 ### LICENCE
 [MITlicense](LICENSE) 2019 **MARK MUCHIRI MACHARIA**
