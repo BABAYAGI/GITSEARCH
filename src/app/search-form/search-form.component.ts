@@ -15,7 +15,7 @@ export class SearchFormComponent implements OnInit {
   repo: Repository[];
   user: User;
 
-  constructor(private router: Router) { 
+  constructor(private router: Rout) { 
     
   }
 
