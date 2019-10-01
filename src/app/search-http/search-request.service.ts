@@ -36,8 +36,6 @@ export class SearchRequestService {
           response => {
             this.Use.avatar_url = response.avatar_url;
             this.Use.name = response.name;
-            // this.Use.follower = response.follower;
-            // this.Use.following = response.following;
             this.Use.repo = response.public_repos;
             console.log(this.Use);
             resolve();
