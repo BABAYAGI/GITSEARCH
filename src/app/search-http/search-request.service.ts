@@ -20,8 +20,7 @@ export class SearchRequestService {
     interface ApiResponse {
       avatar_url: any;
       name: string;
-      // follower: number;
-      // following: number;
+     
       public_repos: number;
     }
     let promise = new Promise((resolve, reject) => {
