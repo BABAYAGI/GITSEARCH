@@ -1,41 +1,66 @@
 <body>
-  <h2 class="card"><br />Github Username<br /></h2>
-  <br /><br />
+  <div class="container">
+    <p class="card-panel hoverable  blue lighten-1"><img class="imm" src="{{ User.avatar_url }}" /></p>
 
-  <div>
-    <br />
-    <p><img class="imm" src="{{ User.avatar_url }}" /></p>
-    <table class="table table-dark">
-      <thead>
-        <div class="row">
-          <div class="col-md-4">Name</div>
+   
 
-          <div class="row">Repositories</div>
-        </div>
-      </thead>
 
-      <div class="row">
-        <div class="col-md-4">{{ User.name }}</div>
 
-        <div class="col-md-4">{{ User.repo }}</div>
+    <div class="row">
+
+      <div class="col s4">
+        Name : {{ User.name }}
+      </div>
+      <div class="col s4">
+        Repos : {{ User.repo }}
       </div>
 
-    </table>
+    </div>
+
+    <div class="divider"></div>
+    <div class="section">
+      <h5>Repositories</h5>
+      <p>{{ User.name }}</p>
+    </div>
+    <div class="divider"></div>
+    <div class="section">
+      <p>{{ User.repo }}</p>
+    </div>
+    <div class="show-on-small hide-on-large-only">
+      <p>
+
+        BUY A LAPTOP BRO !!!
+
+      </p>
+    </div>
+
+    <div>
 
 
-  </div>
 
-  <div>
-    <br />
-
-    <h2 class="card">Github repository</h2>
+      
+      <h2 class="card">{{ User.name }} repositories</h2>
 
 
-    <div *ngFor='let l of Repository'>
+      <div *ngFor='let l of Repository'>
 
-      <p id="nam">{{l.name|caps}} <br></p>
-      <div id="des">{{l.description}}</div>
 
+        <div class="divider"></div>
+        <div class="section section2">
+
+          <p>{{l.name|caps}}</p>
+        </div>
+
+
+        <div class="divider"></div>
+        <div class="section section2">
+
+          <p>{{l.description |caps}}</p>
+        </div>
+
+
+
+      </div>
     </div>
   </div>
 </body>
