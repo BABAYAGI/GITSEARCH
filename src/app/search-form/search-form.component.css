@@ -7,13 +7,13 @@
   margin-left: 100px;
   background-color: black;
   border-radius: 20px;
-  margin-top: 300px;
+  margin-top: 100px;
   margin-bottom: 40px;
   background-image: url(../../assets/download.png);
   background-size: 20%;
   background-position: 9px;
   background-repeat: no-repeat;
-  margin-left:600px;
+  margin-left:650px;
   width: 120px;
 
 }
@@ -27,7 +27,12 @@ input{
   width: 25px;
 }
 .i{
-  width: 200px;
-  margin-left: 600px;
+  width: 300px;
+  margin-left: 550px;
   margin-top: 100px;
+}
+.head {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(../../assets/bb.jpeg);
 }
