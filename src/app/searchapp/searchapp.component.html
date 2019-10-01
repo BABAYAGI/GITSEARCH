@@ -1,4 +1,4 @@
-<body>
+<body class="grey">
   <div class="container">
     <p class="card-panel hoverable  blue lighten-1"><img class="imm" src="{{ User.avatar_url }}" /></p>
 
@@ -10,7 +10,7 @@
 
     <div class="divider"></div>
     <div class="section">
-      <h5>Repositories</h5>
+     
       <p>Name :{{ User.name }}</p>
     </div>
     <div class="divider"></div>
@@ -36,15 +36,15 @@
       <div *ngFor='let l of Repository'>
 
 
-        <div class="divider"></div>
-        <div class="section section2 green accent-2">
+        <div class="divider grey darken-4"></div>
+        <div class="section section2 grey lighten-3">
 
-          <p>Name of repo : {{l.name}}</p>
+          <p class="name1">Name of repo : {{l.name}}</p>
         </div>
 
 
-        <div class="divider  "></div>
-        <div   class="section section2 lime lighten-2">
+        <div class="divider grey darken-4" ></div>
+        <div   class="section section2  blue-grey darken-4">
 
           <p  class="des  " > Description : "{{l.description }}"</p>
         </div>
@@ -55,4 +55,5 @@
     </div>
   </div>
   
+
 </body>
