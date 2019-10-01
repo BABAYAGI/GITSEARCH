@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SearchFormComponent } from './search-form/search-form.component';
 
 import { CapsPipe } from './caps.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CapsPipe } from './caps.pipe';
     SearchappComponent,
     // GoalFormComponent,
     SearchFormComponent,
-    CapsPipe
+    CapsPipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
