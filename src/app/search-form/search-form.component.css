@@ -34,5 +34,14 @@ input{
 .head {
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
-  background-image: url(../../assets/bb.jpeg);
+  background-image: url(../../assets/download.jpeg);
+  height: 150px;
+  text-align: center;
+  color: antiquewhite;
+  background-position: center;
+  
+}
+h2{
+  background-color: rgba(127, 255, 212, 0.555);
+  color: antiquewhite;
 }
